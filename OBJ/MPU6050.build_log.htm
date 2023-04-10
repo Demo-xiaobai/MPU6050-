@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Q Q, Q, LIC=585FJ-UN9N2-DY1V3-AVKSU-Y6SJA-FKQDT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\SOFTWARE\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+E:\Test\keil5\MPUTest1\USER\MPU6050.uvprojx
+Project File Date:  03/19/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\SOFTWARE\Keil_v5\ARM\ARMCC\Bin'
+Build target 'MPU6050'
+compiling main.c...
+..\HARDWARE\uart1.h(4): warning:  #1295-D: Deprecated declaration UART2_Init - give arg types
+  void UART2_Init();
+..\HARDWARE\uart1.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\ANO.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\Motor_Encoder.h(4): warning:  #1295-D: Deprecated declaration Motor_Encoder_Init - give arg types
+  void Motor_Encoder_Init();
+..\HARDWARE\Motor_Encoder.h(5): warning:  #1295-D: Deprecated declaration Get_Encoder - give arg types
+  int16_t Get_Encoder();
+..\HARDWARE\Motor_Encoder.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\PID.h(16): warning:  #1295-D: Deprecated declaration PID_Init - give arg types
+  void PID_Init();
+..\HARDWARE\PID.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\Motor.h(3): warning:  #1295-D: Deprecated declaration Motor_Init - give arg types
+  void Motor_Init();
+..\HARDWARE\Motor.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(22): warning:  #550-D: variable "temp"  was set but never used
+  	short temp;					//æ¸©åº¦
+main.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=23592 RO-data=5336 RW-data=108 ZI-data=1948  
+FromELF: creating hex file...
+"..\OBJ\MPU6050.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_MPU6050
+  D:\SOFTWARE\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
